@@ -5,13 +5,13 @@ Mysql是在gorm基础上封装的快速使用包。
 ## 安装
 
 ```shell
-go get "github.com/seakee-pkg/mysql"
+go get "github.com/sk-pkg/mysql"
 ```
 
 ## 快速开始
 ```go
 import (
-	"github.com/seakee-pkg/mysql"
+	"github.com/sk-pkg/mysql"
 	"gorm.io/gorm"
 	"log"
 )

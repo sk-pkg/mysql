@@ -1,4 +1,4 @@
-module github.com/seakee-pkg/mysql
+module github.com/sk-pkg/mysql
 
 go 1.16
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/seakee-pkg/mysql"
+	"github.com/sk-pkg/mysql"
 	"gorm.io/gorm"
 	"log"
 )
