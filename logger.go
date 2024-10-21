@@ -12,9 +12,9 @@ import (
 
 const (
 	// defaultLogLevel is the default log level for the logger.
-	defaultLogLevel = gormlogger.Info
+	defaultLogLevel = gormlogger.Warn
 	// defaultIgnoreRecordNotFoundError determines whether to ignore "record not found" errors by default.
-	defaultIgnoreRecordNotFoundError = false
+	defaultIgnoreRecordNotFoundError = true
 	// defaultSlowThreshold is the default duration threshold for slow query logging.
 	defaultSlowThreshold = 200 * time.Millisecond
 )
