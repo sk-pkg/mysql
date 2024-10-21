@@ -36,11 +36,9 @@ type LoggerOption func(*logger)
 func WithLevel(level string) LoggerOption {
 	var logLevel gormlogger.LogLevel
 	switch level {
-	case "debug":
-		logLevel = gormlogger.Info
-	case "info":
-		logLevel = gormlogger.Warn
 	case "warn":
+		logLevel = gormlogger.Warn
+	case "error":
 		logLevel = gormlogger.Error
 	case "silent":
 		logLevel = gormlogger.Silent
