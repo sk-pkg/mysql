@@ -3,7 +3,7 @@ module github.com/sk-pkg/mysql
 go 1.22
 
 require (
-	github.com/sk-pkg/logger v1.3.1
+	github.com/sk-pkg/logger v1.3.2
 	go.uber.org/zap v1.27.0
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.25.12
